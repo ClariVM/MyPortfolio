@@ -18,7 +18,7 @@ const CardsList = () => {
         },
         
         {
-            image1: "/public/assets/amazingevents-home.png", image2: "/public/assets/amazingevents-details.png",image3: "/public/assets/amazingevents-stats.png", 
+            image1: "/assets/amazingevents-home.png", image2: "/assets/amazingevents-details.png",image3: "/assets/amazingevents-stats.png", 
             title: "Amazing Events", 
             description: "In this project, I developed a responsive web application using HTML, CSS, and JavaScript. Additionally, I integrated an API to enhance functionality and provide dynamic data to users.", 
             icon:<FaGithub />,
@@ -26,7 +26,7 @@ const CardsList = () => {
         },
         
         {
-            image1: "/public/assets/homebanking-accounts.png", image2: "/public/assets/homebanking-accountdetails.png",image3: "/public/assets/homebanking-cards.png", 
+            image1: "/assets/homebanking-accounts.png", image2: "/assets/homebanking-accountdetails.png",image3: "/assets/homebanking-cards.png", 
             title: "Homebanking", 
             description: "This challenging project involved creating a home banking app with Java, Gradle, and SpringBoot. Within the app, users can request loans, credit cards, perform transfers, view transaction history, among other features.",
             icon:<FaGithub/>,
@@ -34,7 +34,7 @@ const CardsList = () => {
         },
 
         {
-            image1: "/public/assets/toDo-home.png", image2: "/public/assets/toDo-tarea.png",image3: "/public/assets/toDo-filter.png", 
+            image1: "/assets/toDo-home.png", image2: "/assets/toDo-tarea.png",image3: "/assets/toDo-filter.png", 
             title: "To Do List", 
             description: "This project was carried out in collaboration with a colleague. This to-do list was created to apply what we learned in the React course. Additionally, it saves changes in local storage.",
             icon:<FaGithub/>,
@@ -42,7 +42,7 @@ const CardsList = () => {
         },
 
         {
-            image1: "/public/assets/login.png", image2: "/public/assets/login-users.png",image3: "/public/assets/login-alta.png", 
+            image1: "/assets/login.png", image2: "/assets/login-users.png",image3: "/assets/login-alta.png", 
             title: "Login", 
             description: "This login system was developed as a project for the Object-Oriented Programming (OOP) course with Java. Fundamental OOP concepts and CRUD operations were applied and practiced.",
             icon:<FaGithub/>,
