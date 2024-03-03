@@ -5,6 +5,8 @@ import Project from './projects/Project';
 import Education from './education/Education';
 import Contact  from './contact/Contact';
 import Footer from './footer/Footer';
+import * as bootstrap from 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
