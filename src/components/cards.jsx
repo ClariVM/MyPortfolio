@@ -10,7 +10,7 @@ const CardsList = () => {
 
     const cards = [
         {
-            image1: "/public/assets/mdhl-rules.png", image2: "/public/assets/mdhl-info.png",image3: "/public/assets/mdhl-form.png", 
+            image1: "/assets/mdhl-rules.png", image2: "/assets/mdhl-info.png",image3: "/assets/mdhl-form.png", 
             title: "Mighty Ducks hokey league", 
             description: "In this project, I developed the website for a hockey league using only CSS and HTML. The website includes relevant information about the league rules, registration form, match schedule, and location.", 
             icon:<FaGithub />,
