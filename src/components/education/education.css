@@ -1,0 +1,52 @@
+:root {
+    --background-color: #2b2b2b;
+    --color-primary: #e4e2dd;
+    --color-secondary:#ff89a9;
+  } 
+
+.containered{
+    background-color:var(--background-color);
+    height: 100vh;
+    text-align: center;
+    padding: 120px 20px 10px;
+    color: var(--color-primary);
+}
+.containered h1{
+  margin-bottom: 40px;
+}
+
+.containerCertif img{
+  width:  40%;
+}
+
+.carousel-caption h3{
+  color: var(--color-primary);
+  text-shadow: 2px 2px 4px var(--background-color);
+  -webkit-text-stroke: 0.2px black;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: var(--color-secondary) !important;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .containered{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center; 
+        padding: 0px;
+    }
+        .carousel-inner{
+          margin:20px 0;
+        }
+  }
+
+  @media screen and (min-width: 1700px) {
+    .containered{
+      padding-top: 150px;
+    }
+  }

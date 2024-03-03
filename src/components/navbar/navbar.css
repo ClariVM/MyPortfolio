@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+:root {
+    --background-color: #2b2b2b;
+    --color-primary: #e4e2dd;
+    --color-secondary:#ff89a9;
+}
+
+.bg-navbar{
+    background-color: var(--background-color);
+    border-bottom: 3px solid #ff89a8ab;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+Nav .link-nav {
+    color: var(--color-primary);
+    padding: 8px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.link-nav:hover{
+
+    color:var(--color-secondary);
+}
+
+button.menu-link.navbar-toggler.collapsed{
+   background-color: var(--color-primary);
+   
+}
+
+button.menu-link.navbar-toggler{
+    background-color: var(--color-primary);
+    
+ }
+
+
+
+
+
+
+
+

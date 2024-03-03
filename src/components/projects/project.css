@@ -1,0 +1,96 @@
+:root {
+    --background-color: #2b2b2b;
+    --color-primary: #e4e2dd;
+    --color-secondary:#ff89a9;
+  }
+
+.containerp{
+    background-color: var(--background-color); 
+    color: var(--color-primary);
+    padding: 120px 20px 10px;
+    text-align: center; 
+    
+}
+
+.containerCards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-around;
+    background-color: var(--background-color);
+    text-align: center;
+}
+.card{
+    --bs-card-border-width: 0 !important;
+    color: var(--background-color);
+    -webkit-box-shadow: 1px 3px 29px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 3px 29px -4px rgba(0,0,0,1);
+    box-shadow: 1px 3px 29px -4px rgba(0,0,0,1);
+    margin-bottom: 35px;
+}
+
+.card-body{
+    background-color: var(--background-color);
+    font-size: 15px;
+}
+
+.card-title.h5{
+    color: var(--color-secondary);
+}
+
+.card-text{
+    color: var(--color-primary);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: var(--color-secondary);
+}
+
+
+.card-body .btn-primary{
+    --bs-btn-bg: var(--background-color);
+    --bs-btn-color:var(--color-primary);
+    --bs-btn-border-color:var(--color-primary);
+    --bs-btn-hover-bg: var(--color-primary);
+    --bs-btn-hover-color: var(--background-color);
+    --bs-btn-hover-border-color: var(--background-color);
+    margin-right: 20px;
+    
+}
+@media screen and (max-width: 991px) {
+    .containerp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        height: auto;
+        padding: 10px;
+    }
+    .containerCards{
+        padding: 30px;
+    }
+    .card{
+        width: 10rem !important;
+    }
+
+    .card-title.h5{
+        font-size: 12px;
+    }
+    
+    .card-text{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 420px){
+    .card{
+        width: 20rem !important;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .containerp{
+      padding-top: 150px;
+    }
+  }
