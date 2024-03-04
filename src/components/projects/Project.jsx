@@ -6,7 +6,6 @@ import CardsList from '../cards';
 
 function Project() {
   return (
-    <div>
       <div className='containerp' id='projects'>
         <h1>Projects</h1>
         <div className='containerCards'>
@@ -14,7 +13,6 @@ function Project() {
         </div>
         
       </div>
-    </div>
   );
 }
 

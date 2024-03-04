@@ -71,9 +71,7 @@
         padding: 30px;
     }
 
-    .containerp h1{
-        padding-top: 145px;
-    }
+    
     .card{
         width: 15rem !important;
     }
@@ -93,6 +91,9 @@
 @media screen and (min-width: 420px){
     .card{
         width: 20rem !important;
+    }
+    .containerp h1{
+        padding-top: 145px;
     }
 }
 
