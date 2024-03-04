@@ -70,6 +70,10 @@
     .containerCards{
         padding: 30px;
     }
+
+    .containerp h1{
+        padding-top: 195px;
+    }
     .card{
         width: 10rem !important;
     }
@@ -80,6 +84,9 @@
     
     .card-text{
         font-size: 10px;
+    }
+    .carousel-indicators{
+        margin-bottom: 0px !important;
     }
 }
 

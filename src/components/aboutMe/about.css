@@ -21,6 +21,7 @@
 .containerProfile{
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .containerProfile img{
@@ -74,6 +75,9 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+    }
+    .containerProfile p{
+      text-align: center;
     }
   }
   
