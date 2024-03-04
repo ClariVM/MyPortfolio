@@ -88,7 +88,7 @@
     }
 }
 
-@media screen and (min-width: 239px) and (max-width: 285px){
+@media screen and (min-width: 239px) and (max-width: 400px){
     .card{
         width: 20rem !important;
     }
