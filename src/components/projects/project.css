@@ -75,7 +75,7 @@
         padding-top: 145px;
     }
     .card{
-        width: 10rem !important;
+        width: 15rem !important;
     }
 
     .card-title.h5{
@@ -92,7 +92,7 @@
 
 @media screen and (min-width: 420px){
     .card{
-        width: 25rem !important;
+        width: 20rem !important;
     }
 }
 
