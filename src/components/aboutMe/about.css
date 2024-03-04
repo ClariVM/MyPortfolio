@@ -79,6 +79,13 @@
     .containerProfile p{
       text-align: center;
     }
+    .container-about{
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+  }
   }
   
   @media screen and (min-width: 1700px) {
